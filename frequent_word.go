@@ -12,7 +12,7 @@ func frequent(str string) (string , int) {
 		m[word]=m[word]+1
 	}
 	max:=0
-    word:=""
+        word:=""
 	for key, value := range m {
      if value>max{
 		max=value
